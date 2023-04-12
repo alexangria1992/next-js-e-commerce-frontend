@@ -84,7 +84,7 @@ const Cart = ({ data }) => {
                   onClick={handlePayment}
                 >
                   Checkout
-                  <img src="/spinner.svg" />
+                  {loading && <img src="/spinner.svg" />}
                 </button>
                 {/* BUTTON END */}
               </div>
