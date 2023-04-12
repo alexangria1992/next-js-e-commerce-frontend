@@ -51,7 +51,7 @@ const Header = () => {
 
   return (
     <header
-      className={`w-full h-[50px] border-green-300 border-2 border-solid md:h-[80px] bg-white flex items-center 
+      className={`w-full h-[50px]  md:h-[80px] bg-white flex items-center 
       justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}
     >
       <Wrapper className=" h-[60px] flex justify-between items-center  ">
@@ -73,12 +73,12 @@ const Header = () => {
           />
         )}
 
-        <div className="flex items-center gap-2 text-black border-pink-400 border-2 border-solid">
+        <div className="flex items-center gap-2 text-black ">
           {/* Icon Start */}
           <div
             className="w-8 md:w-12 h-8 md:h-12 rounded-full 
           flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative
-           border-orange-400 border-2 border-solid"
+           "
           >
             <IoMdHeartEmpty className="text-[19px] md:text-[24px]" />
 
@@ -96,7 +96,7 @@ const Header = () => {
             <div
               className="w-8 md:w-12 h-8 md:h-12 rounded-full 
           flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative
-           border-blue-400 border-2 border-solid"
+           "
             >
               <BsCart className="text-[15px] md:text-[20px]" />
 
@@ -117,7 +117,7 @@ const Header = () => {
           <div
             className="w-8  h-8 rounded-full md:hidden
           flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative -mr-2
-           border-purple-500-400 border-2 border-solid md:w-12  md:h-12"
+            md:w-12  md:h-12"
           >
             {mobileMenu ? (
               <VscChromeClose

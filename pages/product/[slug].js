@@ -81,7 +81,7 @@ const ProductDetails = ({ product, products }) => {
             {/* PRODUCT SIZE RANGE START */}
             <div className="mb-10">
               {/* HEADING START */}
-              <div className="flex justify-between mb-2 border-cyan-500 border-2 border-solid">
+              <div className="flex justify-between mb-2 ">
                 <div className="text-md font-semibold">Select Size</div>
                 <div className="text-md font-medium text-black/[0.5]">
                   Select Size
@@ -90,10 +90,7 @@ const ProductDetails = ({ product, products }) => {
               {/* HEADING END */}
 
               {/* SIZE START */}
-              <div
-                id="sizesGrid"
-                className="grid grid-cols-3 gap-2 border-yellow-400 border-2 border-solid"
-              >
+              <div id="sizesGrid" className="grid grid-cols-3 gap-2 ">
                 {p.size.data.map((item, i) => (
                   <div
                     key={i}
