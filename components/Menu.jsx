@@ -20,7 +20,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
   return (
     <ul
       className="hidden md:flex items-center gap-8
-     border-blue-300 border-2 border-solid font-medium text-black"
+      font-medium text-black"
     >
       {data.map((item) => {
         return (

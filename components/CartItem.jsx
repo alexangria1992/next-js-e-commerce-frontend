@@ -52,9 +52,9 @@ const CartItem = ({ data }) => {
           {p.subtitle}
         </div>
 
-        <div className="flex items-center justify-between mt-4 border-green-300 border-2 border-solid">
-          <div className="flex items-center gap-2 md:gap-10 text-black/[0.5] text-sm md:text-md border-purple-400 border-2 border-solid">
-            <div className="flex items-center gap-1 border-blue-500 border-2 border-solid">
+        <div className="flex items-center justify-between mt-4 ">
+          <div className="flex items-center gap-2 md:gap-10 text-black/[0.5] text-sm md:text-md ">
+            <div className="flex items-center gap-1 ">
               <div className="font-semibold">Size:</div>
               <select
                 className="hover:text-black"
@@ -75,7 +75,7 @@ const CartItem = ({ data }) => {
               </select>
             </div>
 
-            <div className="flex items-center gap-1 border-blue-500 border-2 border-solid">
+            <div className="flex items-center gap-1 ">
               <div className="font-semibold">Quantity:</div>
               <select
                 className="hover:text-black"
